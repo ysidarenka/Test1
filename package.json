@@ -4,13 +4,14 @@
   "description": "testproject",
   "author": {
     "name": "yury"
-  }
+  },
+"main":"start.js"
 	,
   "dependencies": {
     "selenium-standalone": "*"
     
   },
 "scripts": {
-        "postinstall": "selenium-standalone install && selenium-standalone start"
+        "postinstall": "selenium-standalone install"
     }
 }
