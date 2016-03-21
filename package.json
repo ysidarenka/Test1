@@ -12,6 +12,6 @@
     
   },
 "scripts": {
-        "postinstall": "selenium-standalone install"
+        "postinstall": "selenium-standalone install && node start.js"
     }
 }
