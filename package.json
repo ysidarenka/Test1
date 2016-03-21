@@ -1,0 +1,16 @@
+{
+  "name": "testproject",
+  "version": "0.0.0",
+  "description": "testproject",
+  "author": {
+    "name": "yury"
+  }
+	,
+  "dependencies": {
+    "selenium-standalone": "*"
+    
+  },
+"scripts": {
+        "postinstall": "selenium-standalone install && selenium-standalone start"
+    }
+}
