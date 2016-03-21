@@ -5,13 +5,13 @@
   "author": {
     "name": "yury"
   },
-"main":"start.js"
+"main":"node start.js"
 	,
   "dependencies": {
     "selenium-standalone": "*"
     
   },
 "scripts": {
-        "postinstall": "selenium-standalone install && node start.js"
+        "postinstall": "selenium-standalone install"
     }
 }
